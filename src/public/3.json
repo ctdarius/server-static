@@ -10,6 +10,6 @@
     }
   ],
   "description": "Crocodile Pink",
-  "image": "https://gateway.pinata.cloud/ipfs/QmVGhJYyF9hn2dDaRas17YLS7iLogS7QuzpJYkeekSPB6n/pink.png",
+  "image": "https://server-boarc.herokuapp.com/image/pink.png",
   "name": "Animal"
 }

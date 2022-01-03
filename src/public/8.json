@@ -10,6 +10,6 @@
     }
   ],
   "description": "Crocodile Violet",
-  "image": "https://gateway.pinata.cloud/ipfs/QmVGhJYyF9hn2dDaRas17YLS7iLogS7QuzpJYkeekSPB6n/violet.png",
+  "image": "https://server-boarc.herokuapp.com/image/violet.png",
   "name": "Animal"
 }
