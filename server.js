@@ -1,12 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-
-const socketIO = require("socket.io");
-const http = require("http");
-const dotenv = require("dotenv");
-const bodyParser = require("body-parser");
-const path = require('path')
-
+const path = require("path");
 const app = express();
 
 app.use(express.json({ extended: false }));
