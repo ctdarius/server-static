@@ -17,6 +17,8 @@ app.use(
 	})
 );
 
+
+const PORT = process.env.PORT || 8080;
 // settings cors
 app.use(cors({
 	origin: "*",
@@ -34,13 +36,13 @@ io.on("connection", (socket) => console.log("new client connected"));
 
 // Khai báo static file
 
-app.use('/static', express.static(path.join(__dirname, 'public')))
+app.use('/static', express.static(path.join(__dirname, './src/public')))
 
 //set route 
 app.get('/', (req, res) => {
     res.send('Hello World!')
   })
 // setting port
-server.listen(3000, () => {
+server.listen(PORT, () => {
     console.log(`http://localhost:3000`);
 });
