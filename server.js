@@ -13,8 +13,13 @@ app.use(cors({
 	allowHeaders: ["Content-Type", "multipart/form-data"],
 }));
 // Khai báo static file
-app.use('/static', express.static(path.join(__dirname, './src/public')))
-app.use('/image', express.static(path.join(__dirname, './src/image')))
+app.use(require('less-middleware')(path.join(__dirname, 'src')));
+app.use(express.static(path.join(__dirname, 'src')));
+app.use(express.static('src/image'));
+app.use(express.static('src/public'));
+
+// app.use('/static', express.static(path.join(__dirname, './src/public')))
+// app.use('/image', express.static(path.join(__dirname, './src/image')))
 
 // setting port
 app.listen(PORT, () => {
