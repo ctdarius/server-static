@@ -14,7 +14,7 @@ app.use(cors({
 }));
 // Khai báo static file
 app.use('/static', express.static(path.join(__dirname, './src/public')))
-app.use('/image', express.static(path.join(__dirname, './src/image')))
+//app.use('/image', express.static(path.join(__dirname, './src/image')))
 
 // setting port
 app.listen(PORT, () => {
