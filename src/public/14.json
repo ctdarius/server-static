@@ -1,0 +1,15 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Species",
+      "value": "Crocodile"
+    },
+    {
+      "trait_type": "Color",
+      "value": "Pink"
+    }
+  ],
+  "description": "Crocodile Pink",
+  "image": "https://gateway.pinata.cloud/ipfs/QmVGhJYyF9hn2dDaRas17YLS7iLogS7QuzpJYkeekSPB6n/pink.png",
+  "name": "Animal"
+}

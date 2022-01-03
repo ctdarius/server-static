@@ -1,0 +1,15 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Species",
+      "value": "Crocodile"
+    },
+    {
+      "trait_type": "Color",
+      "value": "Brown"
+    }
+  ],
+  "description": "Crocodile Brown",
+  "image": "https://gateway.pinata.cloud/ipfs/QmVGhJYyF9hn2dDaRas17YLS7iLogS7QuzpJYkeekSPB6n/brown.png",
+  "name": "Animal"
+}
