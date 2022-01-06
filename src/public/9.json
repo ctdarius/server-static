@@ -2,14 +2,14 @@
   "attributes": [
     {
       "trait_type": "Species",
-      "value": "Crocodile"
+      "value": "Kitty"
     },
     {
       "trait_type": "Color",
-      "value": "Pink"
+      "value": "Yellow"
     }
   ],
   "description": "Crocodile Pink",
-  "image": "https://server-boarc.herokuapp.com/image/pink.png",
+  "image": "https://server-boarc.herokuapp.com/image/kitty_yellow.png",
   "name": "Animal"
 }

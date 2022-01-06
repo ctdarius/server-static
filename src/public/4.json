@@ -6,10 +6,10 @@
     },
     {
       "trait_type": "Color",
-      "value": "Violet"
+      "value": "Yellow"
     }
   ],
   "description": "Crocodile Violet",
-  "image": "https://server-boarc.herokuapp.com/image/violet.png",
+  "image": "https://server-boarc.herokuapp.com/image/yellow.png",
   "name": "Animal"
 }

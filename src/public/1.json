@@ -6,10 +6,10 @@
     },
     {
       "trait_type": "Color",
-      "value": "Brown"
+      "value": "Green"
     }
   ],
   "description": "Crocodile Brown",
-  "image": "https://server-boarc.herokuapp.com/image/brown.png",
+  "image": "https://server-boarc.herokuapp.com/image/green.png",
   "name": "Animal"
 }
